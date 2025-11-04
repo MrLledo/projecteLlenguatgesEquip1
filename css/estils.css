@@ -1,0 +1,313 @@
+/* ===== ESTILOS GENERALES ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos base del body */
+body {
+    background-color: #0d0f18;
+    color: #e0e0e0;
+    line-height: 1.6;
+    background-image: 
+        radial-gradient(circle at 10% 20%, rgba(255, 0, 195, 0.05) 0%, transparent 20%),
+        radial-gradient(circle at 90% 80%, rgba(0, 238, 255, 0.05) 0%, transparent 20%);
+}
+
+/* ===== HEADER Y NAVEGACIÓN PRINCIPAL ===== */
+header {
+    background-color: #1a1e2b;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ff00c3;
+    box-shadow: 0 0 15px rgba(255, 0, 195, 0.3);
+    border-radius: 0 0 12px 12px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff00c3;
+    text-shadow: 0 0 10px rgba(255, 0, 195, 0.7);
+
+}
+.logo img {
+        border-radius: 12px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background-color: rgba(255, 0, 195, 0.2);
+    color: #ff00c3;
+    box-shadow: 0 0 8px rgba(255, 0, 195, 0.5);
+}
+
+/* ===== MENÚ SECUNDARIO DEL JUEGO ===== */
+.game-nav {
+    background-color: rgba(26, 30, 43, 0.9);
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 12px;
+    border: 1px solid #00eeff;
+    box-shadow: 0 0 10px rgba(0, 238, 255, 0.2);
+}
+
+.game-nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.game-nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.game-nav a:hover {
+    background-color: rgba(0, 238, 255, 0.1);
+    color: #00eeff;
+    border-color: #00eeff;
+    box-shadow: 0 0 8px rgba(0, 238, 255, 0.4);
+}
+
+/* ===== CONTENIDO PRINCIPAL ===== */
+.main-content {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+}
+
+/* ===== BARRA LATERAL ===== */
+.sidebar {
+    background-color: #1a1e2b;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 0, 195, 0.3);
+    box-shadow: 0 0 15px rgba(255, 0, 195, 0.1);
+}
+
+
+.sidebar h3 {
+    color: #ff00c3;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 0, 195, 0.3);
+    padding-bottom: 8px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    color: #00eeff;
+    background-color: rgba(0, 238, 255, 0.1);
+}
+
+/* ===== CONTENIDO CENTRAL ===== */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* ===== SECCIONES GENERALES ===== */
+section {
+    background-color: #1a1e2b;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 238, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 238, 255, 0.1);
+}
+
+section h1, section h2 {
+    color: #ff00c3;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px rgba(255, 0, 195, 0.5);
+}
+
+section h2 {
+    border-bottom: 1px solid rgba(255, 0, 195, 0.3);
+    padding-bottom: 10px;
+}
+
+/* ===== INFORMACIÓN DEL JUEGO ===== */
+.game-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.game-info > div {
+    background-color: rgba(13, 15, 24, 0.5);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 238, 255, 0.1);
+}
+
+/* ===== SECCIÓN DE PERSONAJES ===== */
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.character-card {
+    background-color: rgba(13, 15, 24, 0.5);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid rgba(255, 0, 195, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.character-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(255, 0, 195, 0.3);
+}
+
+.character-image {
+    height: 120px;
+    background-color: #0d0f18;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #00eeff;
+}
+
+.character-card h3 {
+    color: #00eeff;
+    margin-bottom: 10px;
+}
+
+/* ===== CONTENIDO DESTACADO ===== */
+.featured-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.featured-content > div {
+    background-color: rgba(13, 15, 24, 0.5);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 0, 195, 0.2);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #1a1e2b;
+    padding: 30px 0;
+    margin-top: 40px;
+    border-top: 2px solid #00eeff;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 0 15px rgba(0, 238, 255, 0.2);
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-links h3 {
+    color: #ff00c3;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 0, 195, 0.3);
+    padding-bottom: 8px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #00eeff;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 238, 255, 0.2);
+    color: #a0a0a0;
+}
+
+/* ===== DISEÑO RESPONSIVE  ===== */
+/* ( La pestaña se adapta automáticamenet) */
+@media (max-width: 900px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .game-info {
+        grid-template-columns: 1fr;
+    }
+    
+    .character-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .featured-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-links {
+        grid-template-columns: 1fr;
+    }
+}

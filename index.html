@@ -1,19 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>My Web Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liars Bar</title>
+     <link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
+    <!-- Cabecera con logo y menú principal -->
     <header>
-        <h1>Projecte Llenguatge</h1>
+        <div class="logo">
+            <img alt="logo" src="./img/logo.jpg">
+        </div>
+        <nav class="main-nav" aria-label="Menú principal">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Descargar</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Comunidad</a></li>
+                <li><a href="#">Soporte</a></li>
+                <li><a href="#">Tienda</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <p>HelloWorld</p>
-        <p>BonDIaRaul</p>
+
+    <!-- Menú secundario con categorías del juego -->
+    <nav class="game-nav" aria-label="Categorías del juego">
+        <ul>
+            <li><a href="#">¿Qué es?</a></li>
+            <li><a href="#">Cómo ganar</a></li>
+            <li><a href="#">Personajes</a></li>
+            <li><a href="#">Tipos de juegos</a></li>
+            <li><a href="#">Estrategias</a></li>
+            <li><a href="#">Trucos y consejos</a></li>
+            <li><a href="#">Modos de juego</a></li>
+            <li><a href="#">Logros</a></li>
+            <li><a href="#">Actualizaciones</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="main-content">
+        <!-- Barra lateral con información adicional -->
+        <aside class="sidebar">
+            <div class="quick-links">
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="#">Inicio rápido</a></li>
+                    <li><a href="#">Guía para principiantes</a></li>
+                    <li><a href="#">Eventos actuales</a></li>
+                    <li><a href="#">Ranking de jugadores</a></li>
+                    <li><a href="#">Foros</a></li>
+                </ul>
+            </div>
+            <div class="game-stats">
+                <h3>Estadísticas</h3>
+                <!-- Espacio para estadísticas del juego -->
+            </div>
+            <div class="social-links">
+                <h3>Síguenos</h3>
+                <!-- Iconos de redes sociales -->
+            </div>
+        </aside>
+
+        <!-- Contenido central -->
+        <div class="content">
+            <!-- Sección de bienvenida/introducción -->
+            <section class="intro">
+                <h1>Bienvenido a Liars Bar</h1>
+                <!-- Imagen destacada del juego -->
+                <div class="featured-image"></div>
+            </section>
+
+            <!-- Sección de información básica del juego -->
+            <section class="game-info">
+                <div class="what-is">
+                    <h2>¿Qué es Liars Bar?</h2>
+                    <!-- Contenido sobre el concepto del juego -->
+                </div>
+                <div class="how-to-play">
+                    <h2>Cómo jugar</h2>
+                    <!-- Explicación de mecánicas básicas -->
+                </div>
+                <div class="game-modes">
+                    <h2>Modos de juego</h2>
+                    <!-- Lista de modos disponibles -->
+                </div>
+                <div class="winning-conditions">
+                    <h2>Cómo ganar</h2>
+                    <!-- Explicación de condiciones de victoria -->
+                </div>
+            </section>
+
+            <!-- Sección de personajes -->
+            <section class="characters">
+                <h2>Personajes</h2>
+                <div class="character-grid">
+                    <!-- Tarjetas de personajes -->
+                    <div class="character-card">
+                        <div class="character-image"></div>
+                        <h3>Nombre del personaje</h3>
+                        <!-- Descripción breve -->
+                    </div>
+                    <!-- Más tarjetas de personajes -->
+                </div>
+            </section>
+
+            <!-- Sección de tipos de juegos -->
+            <section class="game-types">
+                <h2>Tipos de juegos</h2>
+                <div class="game-types-list">
+                    <!-- Lista de diferentes tipos de juegos disponibles -->
+                </div>
+            </section>
+
+            <!-- Sección de estrategias -->
+            <section class="strategies">
+                <h2>Estrategias y consejos</h2>
+                <div class="strategy-content">
+                    <!-- Contenido sobre estrategias avanzadas -->
+                </div>
+            </section>
+
+            <!-- Sección de contenido destacado -->
+            <section class="featured-content">
+                <div class="news">
+                    <h2>Últimas noticias</h2>
+                    <!-- Lista de noticias recientes  Podríamos hacer como botón y que lleve a otar página-->
+                </div>
+                <div class="updates">
+                    <h2>Actualizaciones</h2>
+                    <!-- Información sobre últimas actualizaciones x2-->
+                </div>
+                <div class="events">
+                    <h2>Eventos</h2>
+                    <!-- Información sobre eventos actuales x3-->
+                </div>
+            </section>
+        </div>
     </main>
+
+    <!-- Pie de página -->
     <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <div class="company-info">
+                    <h3>Compañía</h3>
+                    <ul>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Trabaja con nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="legal-info">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Términos de servicio</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="support-info">
+                    <h3>Soporte</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Foro de ayuda</a></li>
+                        <li><a href="#">Reportar un problema</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <p>&copy; 2024 My Web Page</p>
         <p>hola equipo</p>
     </footer>
