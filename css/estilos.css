@@ -1,1 +1,71 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color: #966b4b;
+}
 
+/* Layout principal */
+
+#cap{
+    position: fixed;
+    height: 200px;
+    width: 100%;;
+    top: -5px;
+    left: -5px;
+    background: linear-gradient(
+        rgba(150, 107, 75, 1),
+        rgba(26, 26, 46, 0)
+    );
+}
+
+#cos{
+    background-color: #966b4b;
+    height: 900px;
+}
+
+#peu{
+    margin: auto;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(90, 165, 55);
+    left: -5px;
+    bottom: -5px;
+    position: fixed;
+}
+
+/* Estils imatges */
+
+.logo{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.cesped{
+    width: 101%;
+    height: 50px;
+    background-image: url(../img/CESPED.webp);
+    background-repeat: repeat-x;
+    bottom: -35px;
+    position: absolute;
+}
+
+.cespedFoter{
+    top: -35px;
+    left: -5px;
+    width: 101%;
+    height: 50px;
+    background-image: url(../img/CESPED.webp);
+    background-repeat: repeat-x;
+    position: relative;
+    scale: calc(-1);
+}
+
+.FondoCap{
+    width: 101%;
+    height: 200px;
+    z-index: -1;
+    object-fit: cover;
+}
