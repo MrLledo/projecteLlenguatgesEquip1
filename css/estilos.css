@@ -8,7 +8,7 @@ html{
 
 #cap{
     position: fixed;
-    height: 200px;
+    height: 150px;
     width: 100%;;
     top: -5px;
     left: -5px;
@@ -22,19 +22,18 @@ html{
 
 #peu{
     margin: auto;
-    height: 200px;
+    height: 100px;
     width: 100%;
     background-color: rgb(90, 165, 55);
     left: -5px;
     bottom: -5px;
-    position: fixed;
 }
 
 /* Estils imatges */
 
 .logo{
     position: absolute;
-    width: 300px;
+    width: 200px;
     height: auto;
     margin-left: 50px;
     margin-top: 10px;
@@ -68,4 +67,15 @@ html{
     background-image: url(../img/NUBES3.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+/* Objetos y contenedores */
+
+#ContPrincipal{
+    height: 900px;
+    width: 100px;
+    background-color: wheat;
+    border: rgba(109, 64, 45, 1) solid 5px;
+    top: 15px;
+    position: relative;
 }
