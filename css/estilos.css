@@ -12,10 +12,7 @@ html{
     width: 100%;;
     top: -5px;
     left: -5px;
-    background: linear-gradient(
-        rgba(150, 107, 75, 1),
-        rgba(26, 26, 46, 0)
-    );
+    /*background-image: url(../img/NUBES3.jpg);*/
 }
 
 #cos{
@@ -65,7 +62,10 @@ html{
 
 .FondoCap{
     width: 101%;
-    height: 200px;
+    height: 100%;
     z-index: -1;
     object-fit: cover;
+    background-image: url(../img/NUBES3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
