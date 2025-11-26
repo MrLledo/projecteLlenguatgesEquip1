@@ -258,3 +258,18 @@ html{
     margin-top: -190px;
     transform: scaleX(-1);
 }
+
+/*CAIXES*/
+
+.caja{
+    width: 70%;
+    height: auto;
+    background-color:rgba(139, 69, 19, 0.7);
+    border: solid 1px #382516;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
