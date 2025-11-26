@@ -26,7 +26,7 @@ html{
 #peu{
     margin: auto;
     height: 200px;
-    width: 100%;
+    width: 101%;
     background-color: rgb(90, 165, 55);
     left: -5px;
     bottom: -5px;
@@ -67,5 +67,194 @@ html{
     width: 101%;
     height: 200px;
     z-index: -1;
-    object-fit: cover;
+}
+
+/* TREE */
+
+.Tree1{
+    position: absolute;
+    height: auto;
+    margin-left: 18%;
+    margin-top: -110px;
+}
+
+.Tree2{
+    position: absolute;
+    height: auto;
+    margin-left: 22.5%;
+    margin-top: -110px;
+    transform: scaleX(-1);
+}
+
+.Tree3{
+    position: absolute;
+    height: auto;
+    margin-left: 29%;
+    margin-top: -110px;
+}
+
+.Tree4{
+    position: absolute;
+    height: auto;
+    margin-left: 40%;
+    margin-top: -110px;
+    transform: scaleX(-1);
+}
+
+.Tree5{
+    position: absolute;
+    height: auto;
+    margin-left: 70%;
+    margin-top: -110px;
+}
+
+.Tree6{
+    position: absolute;
+    height: auto;
+    margin-left: 61%;
+    margin-top: -110px;
+    transform: scaleX(-1);
+}
+
+.Tree7{
+    position: absolute;
+    height: auto;
+    margin-left: 70%;
+    margin-top: -110px;
+}
+
+.Tree8{
+    position: absolute;
+    height: auto;
+    margin-left: 73%;
+    margin-top: -110px;
+}
+
+.Tree9{
+    position: absolute;
+    height: auto;
+    margin-left: 50%;
+    margin-top: -110px;
+}
+
+/*NPC's*/
+
+.Npc1{
+    position: absolute;
+    height: auto;
+    margin-left: 6%;
+    margin-top: -60px;
+}
+
+.Npc2{
+    position: absolute;
+    height: auto;
+    margin-left: 21%;
+    margin-top: -62px;
+}
+
+.Npc3{
+    position: absolute;
+    height: auto;
+    margin-left: 63%;
+    margin-top: -62px;
+}
+
+.Npc4{
+    position: absolute;
+    height: auto;
+    margin-left: 60%;
+    margin-top: -60px;
+    transform: scaleX(-1);
+}
+
+.Npc5{
+    position: absolute;
+    height: auto;
+    margin-left: 53%;
+    margin-top: -60px;
+}
+
+.Npc6{
+    position: absolute;
+    height: auto;
+    margin-left: 43%;
+    margin-top: -62px;
+    transform: scaleX(-1);
+}
+
+.Npc7{
+    position: absolute;
+    height: auto;
+    margin-left: 32%;
+    margin-top: -60px;
+}
+
+.Npc8{
+    position: absolute;
+    height: auto;
+    margin-left: 16%;
+    margin-top: -63px;
+    transform: scaleX(-1);
+}
+
+.Npc9{
+    position: absolute;
+    height: auto;
+    margin-left: 76%;
+    margin-top: -64px;
+    transform: scaleX(-1);
+}
+
+/* CASITAS */
+
+.Casita1{
+    position: absolute;
+    height: 50px;
+    margin-left: 55%;
+    margin-top: -68px;
+}
+
+.Casita2{
+    position: absolute;
+    height: 50px;
+    margin-left: 65%;
+    margin-top: -68px;
+}
+
+.Casita3{
+    position: absolute;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: -68px;
+    transform: scaleX(-1);
+}
+
+.Casita4{
+    position: absolute;
+    height: 50px;
+    margin-left: 45%;
+    margin-top: -68px;
+}
+
+.Casita5{
+    position: absolute;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: -68px;
+}
+
+.Casita6{
+    position: absolute;
+    height: 50px;
+    margin-left: 35%;
+    margin-top: -68px;
+}
+
+.Mazmorra{
+    position: absolute;
+    height: 175px;
+    margin-left: 79%;
+    margin-top: -190px;
+    transform: scaleX(-1);
 }
