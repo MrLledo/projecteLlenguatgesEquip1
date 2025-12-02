@@ -4,33 +4,42 @@ html{
     background-color: #966b4b;
 }
 
+#wrapper {
+    width: 100%;
+    margin:0 auto;
+}
+
 /* Layout principal */
 
 #cap{
     position: fixed;
     height: 200px;
-    width: 100%;;
+    width: 100%;
     top: -5px;
     left: -5px;
     background: linear-gradient(
         rgba(150, 107, 75, 1),
         rgba(26, 26, 46, 0)
     );
+    background-image:url(../img/Personajes/Mazmorra.png), url(../img/CESPED.webp),url(../img/NUBES3.jpg);
+    background-size:20%,auto,100% 100%;
+    background-position:right,bottom,center;
+    background-repeat:no-repeat,repeat-x,no-repeat;
 }
 
 #cos{
     background-color: #966b4b;
+    margin-top:200px;
     height: 900px;
 }
 
 #peu{
-    margin: auto;
     height: 200px;
-    width: 101%;
+    width: 100%;
     background-color: rgb(90, 165, 55);
-    left: -5px;
-    bottom: -5px;
-    position: fixed;
+    margin-left: -8px;
+    margin-bottom: -10px;
+    padding-right: 16px;
 }
 
 /* Estils imatges */
@@ -61,6 +70,7 @@ html{
     background-repeat: repeat-x;
     position: relative;
     scale: calc(-1);
+    padding-right: 6px;
 }
 
 .FondoCap{
@@ -69,207 +79,71 @@ html{
     z-index: -1;
 }
 
-/* TREE */
+/*=================================================================*/
 
-.Tree1{
-    position: absolute;
-    height: auto;
-    margin-left: 18%;
-    margin-top: -110px;
+.Menu {
+    position: fixed;
+    left: 23px;
+    background-color: rgba(255, 200, 158, 0.7);
+    color: #382516;
+    font-family: Andy;
+    border: solid 3.5px #382516;
+    width: 12%;
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 265px;
 }
 
-.Tree2{
-    position: absolute;
-    height: auto;
-    margin-left: 22.5%;
-    margin-top: -110px;
-    transform: scaleX(-1);
+ul.llista{
+    list-style-type: none;
 }
-
-.Tree3{
-    position: absolute;
-    height: auto;
-    margin-left: 29%;
-    margin-top: -110px;
-}
-
-.Tree4{
-    position: absolute;
-    height: auto;
-    margin-left: 40%;
-    margin-top: -110px;
-    transform: scaleX(-1);
-}
-
-.Tree5{
-    position: absolute;
-    height: auto;
-    margin-left: 70%;
-    margin-top: -110px;
-}
-
-.Tree6{
-    position: absolute;
-    height: auto;
-    margin-left: 61%;
-    margin-top: -110px;
-    transform: scaleX(-1);
-}
-
-.Tree7{
-    position: absolute;
-    height: auto;
-    margin-left: 70%;
-    margin-top: -110px;
-}
-
-.Tree8{
-    position: absolute;
-    height: auto;
-    margin-left: 73%;
-    margin-top: -110px;
-}
-
-.Tree9{
-    position: absolute;
-    height: auto;
-    margin-left: 50%;
-    margin-top: -110px;
-}
-
-/*NPC's*/
-
-.Npc1{
-    position: absolute;
-    height: auto;
-    margin-left: 6%;
-    margin-top: -60px;
-}
-
-.Npc2{
-    position: absolute;
-    height: auto;
-    margin-left: 21%;
-    margin-top: -62px;
-}
-
-.Npc3{
-    position: absolute;
-    height: auto;
-    margin-left: 63%;
-    margin-top: -62px;
-}
-
-.Npc4{
-    position: absolute;
-    height: auto;
-    margin-left: 60%;
-    margin-top: -60px;
-    transform: scaleX(-1);
-}
-
-.Npc5{
-    position: absolute;
-    height: auto;
-    margin-left: 53%;
-    margin-top: -60px;
-}
-
-.Npc6{
-    position: absolute;
-    height: auto;
-    margin-left: 43%;
-    margin-top: -62px;
-    transform: scaleX(-1);
-}
-
-.Npc7{
-    position: absolute;
-    height: auto;
-    margin-left: 32%;
-    margin-top: -60px;
-}
-
-.Npc8{
-    position: absolute;
-    height: auto;
-    margin-left: 16%;
-    margin-top: -63px;
-    transform: scaleX(-1);
-}
-
-.Npc9{
-    position: absolute;
-    height: auto;
-    margin-left: 76%;
-    margin-top: -64px;
-    transform: scaleX(-1);
-}
-
-/* CASITAS */
-
-.Casita1{
-    position: absolute;
-    height: 50px;
-    margin-left: 55%;
-    margin-top: -68px;
-}
-
-.Casita2{
-    position: absolute;
-    height: 50px;
-    margin-left: 65%;
-    margin-top: -68px;
-}
-
-.Casita3{
-    position: absolute;
-    height: 50px;
-    margin-left: 10%;
-    margin-top: -68px;
-    transform: scaleX(-1);
-}
-
-.Casita4{
-    position: absolute;
-    height: 50px;
-    margin-left: 45%;
-    margin-top: -68px;
-}
-
-.Casita5{
-    position: absolute;
-    height: 50px;
-    margin-left: 25%;
-    margin-top: -68px;
-}
-
-.Casita6{
-    position: absolute;
-    height: 50px;
-    margin-left: 35%;
-    margin-top: -68px;
-}
-
-.Mazmorra{
-    position: absolute;
-    height: 175px;
-    margin-left: 79%;
-    margin-top: -190px;
-    transform: scaleX(-1);
-}
-
-/*CAIXES*/
 
 .caja{
     width: 70%;
     height: auto;
-    background-color:rgba(139, 69, 19, 0.7);
-    border: solid 1px #382516;
-    color: white;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    color: #382516;
     text-align: justify;
     padding: 10px;
     margin-top: 10px;
-    margin-left: 250px;
+    margin-left: 15%;
     margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: Andy;
 }
+
+.caja1 {
+    width: 70%;
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    color: #382516;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 150px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: Andy;
+}
+
+@font-face {
+        font-family: 'Andy';
+        src: url('../img/Letra/Terraria-Font/ANDYB.TTF');
+    }
+.caja2 {
+    font-family: Andy;
+    width: 70%;
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    color: #382516;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
