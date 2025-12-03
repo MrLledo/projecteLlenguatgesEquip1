@@ -30,7 +30,7 @@ html{
 #cos{
     background-color: #966b4b;
     margin-top:200px;
-    height: 900px;
+    height: 905px;
 }
 
 #peu{
@@ -83,23 +83,57 @@ html{
 
 .Menu {
     position: fixed;
-    left: 23px;
+    left: 1.5%;
     background-color: rgba(255, 200, 158, 0.7);
     color: #382516;
     font-family: Andy;
     border: solid 3.5px #382516;
     width: 12%;
     border-radius: 10px;
-    margin-top: 30px;
-    height: 265px;
+    margin-top: 0px;
+    height: 315px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.Menu1 {
+    position: fixed;
+    right: 1.5%;
+    background-color: rgba(255, 200, 158, 0.7);
+    color: #382516;
+    font-family: Andy;
+    border: solid 3.5px #382516;
+    width: 5%;
+    border-radius: 10px;
+    margin-top: -1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    margin-left: 0px;
+    height: 320px;
+}
+
+.SubMenu {
+    background-color:rgba(150, 107, 75, 1);
+    border: solid 2px #382516;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 15%;
+    width: 30px;
+    height: 30px;
 }
 
 ul.llista{
     list-style-type: none;
+    margin-left: -35px;
+    margin-top: 40px;
+}
+
+ul.llista1{
+    list-style-type: none;
+    margin-left: -39px;
 }
 
 .caja{
-    width: 70%;
+    width: 75%;
     height: auto;
     background-color: rgba(255, 200, 158, 0.7);
     border: solid 3.5px #382516;
@@ -111,10 +145,11 @@ ul.llista{
     margin-bottom: 10px;
     border-radius: 10px;
     font-family: Andy;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
 .caja1 {
-    width: 70%;
+    width: 75%;
     height: auto;
     background-color: rgba(255, 200, 158, 0.7);
     border: solid 3.5px #382516;
@@ -126,6 +161,7 @@ ul.llista{
     margin-bottom: 10px;
     border-radius: 10px;
     font-family: Andy;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
 @font-face {
@@ -134,7 +170,7 @@ ul.llista{
     }
 .caja2 {
     font-family: Andy;
-    width: 70%;
+    width: 75%;
     height: auto;
     background-color: rgba(255, 200, 158, 0.7);
     border: solid 3.5px #382516;
@@ -143,7 +179,8 @@ ul.llista{
     padding: 10px;
     margin-top: 10px;
     margin-left: 15%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
