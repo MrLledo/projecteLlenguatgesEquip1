@@ -30,11 +30,11 @@ html{
 #cos{
     background-color: #966b4b;
     margin-top:200px;
-    height: 905px;
+    height: auto;
 }
 
 #peu{
-    height: 200px;
+    height: 190px;
     width: 100%;
     background-color: rgb(90, 165, 55);
     margin-left: -8px;
@@ -108,7 +108,7 @@ html{
     margin-top: -1px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
     margin-left: 0px;
-    height: 320px;
+    height: 318px;
 }
 
 .SubMenu {
@@ -124,7 +124,7 @@ html{
 ul.llista{
     list-style-type: none;
     margin-left: -35px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 ul.llista1{
@@ -179,7 +179,7 @@ ul.llista1{
     padding: 10px;
     margin-top: 10px;
     margin-left: 15%;
-    margin-bottom: 50px;
+    margin-bottom: 22px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
