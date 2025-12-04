@@ -97,7 +97,7 @@ ul.llista{
     border-radius: 10px;
     font-family: Andy;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-    background-image: url(/img/Terraria_imagen1.webp);
+    background-image: url(../img/Terraria_imagen1.webp);
     background-size:100% 100%;
     background-position: center;
     background-repeat:no-repeat;
