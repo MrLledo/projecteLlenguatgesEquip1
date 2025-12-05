@@ -14,7 +14,26 @@
         <div class="cesped"></div>
         <img class="logo" src="img/LOGO.webp" alt="Logo">
         <img class="FondoCap" src="img/NUBES3.jpg" alt="Fondo">
+
+        <!-- AUDIO -->
+        <audio id="miAudio" src="img/Videos/Terraria Music - Day.mp3"></audio>
+        <button id="btnAudio">Musica</button>
+        <script>
+        const audio = document.getElementById("miAudio");
+        const btn = document.getElementById("btnAudio");
+
+        btn.addEventListener("click", () => {
+            if (audio.paused) {
+            audio.play();
+            btn.textContent = "Pausar";
+            } else {
+            audio.pause();
+            btn.textContent = "Reproducir";
+            }
+        });
+        </script>
     </header>
+
     <main id="cos">
         <div class="Menu1">
             <ul class="llista1">
@@ -49,6 +68,7 @@
                 <li>¡Y sigue recibiendo actualizaciones años después de su lanzamiento, con una comunidad y soporte excepcionales! </li>
             </ul>
         </div>
+
         <div class="imgcaja1">
             <div class="caja3">
                 <p>GÉNERO: Sandbox / Aventura / Acción-RPG / Construcción / Supervivencia </p>
@@ -88,7 +108,7 @@
     <footer id="peu">
         <!--<div class="cespedFoter"> </div>-->
         <div class="MenuPeu">
-            <div class="dinspeu"><a href="https://terraria.softonic.com/">INSTALAR</a></div>
+            <div class="dinspeu"><a href="https://store.steampowered.com/app/105600/Terraria/">INSTALAR</a></div>
             <div class="dinspeu"><a>CONTACTO</a></div>
             <div class="dinspeu"><a href="https://terraria.org/">PÁGINA TERRARIA OFICIAL</a></div>
         </div>
