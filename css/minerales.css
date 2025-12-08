@@ -1,1 +1,162 @@
+/* MENÚ SECUNDARIO */
+.Menu2 {
+    position: fixed;
+    right: 1.5%;
+    background-color: rgba(255, 200, 158, 0.7);
+    color: #382516;
+    font-family: Andy;
+    border: solid 3.5px #382516;
+    width: 5%;
+    border-radius: 10px;
+    margin-top: -1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    margin-left: 0px;
+    height: 308.5px;
+    padding-top: 5px;
+}
 
+.menuimg2 {
+    background-color: green;
+    color: #382516;
+    font-family: Andy;
+    border: solid 2px #382516;
+    width: 60px;
+    height: 47px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.menuimg3 {
+    background-color: yellow;
+    color: #382516;
+    font-family: Andy;
+    border: solid 2px #382516;
+    width: 60px;
+    height: 47px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.menuimg4 {
+    background-color: orange;
+    color: #382516;
+    font-family: Andy;
+    border: solid 2px #382516;
+    width: 60px;
+    height: 47px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.menuimg5 {
+    background-color: red;
+    color: #382516;
+    font-family: Andy;
+    border: solid 2px #382516;
+    width: 60px;
+    height: 47px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.menuimg1 {
+    margin: 2.5px;
+    width: 60px;
+    height: 47px;
+}
+
+.SubMenu {
+    background-color:rgba(150, 107, 75, 1);
+    border: solid 2px #382516;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 15%;
+    width: 30px;
+    height: 30px;
+}
+
+ul.llista{
+    list-style-type: none;
+    margin-left: -35px;
+    margin-top: 20px;
+}
+
+/*  CAJAS DEL MAIN  */
+
+.cajaTit {
+    width: 30%;
+    height: 60px;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    text-align: center;
+    margin-left: 38.5%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.caja0 {
+    width: 75%;
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+
+.caja1 {
+    width: 75%;
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    border-bottom: none;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.imagen1 {
+    width: 76.3%;
+    height: 100px;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    color: #382516;
+    margin-top: 0px;
+    margin-left: 15%;
+    margin-bottom: 22px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: Andy;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

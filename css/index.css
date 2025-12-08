@@ -51,6 +51,10 @@ ul.llista{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
+.imgcaja1 {
+    display: flex;
+}
+
 .caja2 {
     width: 75%;
     height: auto;
@@ -65,9 +69,7 @@ ul.llista{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
-.imgcaja1 {
-    display: flex;
-}
+
 
 .caja3 {
     width: 57.1%;
