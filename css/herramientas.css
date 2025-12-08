@@ -1,10 +1,8 @@
 /* MENÚ SECUNDARIO */
-.Menu2 {
+#Menu2 {
     position: fixed;
     right: 1.5%;
     background-color: rgba(255, 200, 158, 0.7);
-    color: #382516;
-    font-family: Andy;
     border: solid 3.5px #382516;
     width: 5%;
     border-radius: 10px;
@@ -37,12 +35,14 @@ ul.llista{
 
 /*  CAJAS DEL MAIN  */
 
-.cajaTit {
+#cajaTit {
     width: 30%;
     height: 60px;
     background-color: rgba(255, 200, 158, 0.7);
     border: solid 3.5px #382516;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 38.5%;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -52,7 +52,7 @@ ul.llista{
     display: flex;
 }
 
-.caja0 {
+#caja0 {
     width: 75%;
     height: auto;
     background-color: rgba(255, 200, 158, 0.7);
@@ -66,7 +66,8 @@ ul.llista{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
-.caja1 { /* 75% total */
+#caja1 { 
+    float: right;
     width: 35%;
     height: auto;
     background-color: rgba(255, 200, 158, 0.7);
@@ -94,7 +95,8 @@ ul.llista{
 }
 
 
-.caja2 {
+#caja2 {
+    float: right;
     width: 47%;
     height: auto;
     background-color: rgba(255, 200, 158, 0.7);
@@ -122,7 +124,8 @@ ul.llista{
 }
 
 
-.caja3 {
+#caja3 {
+    float: left;
     width: 45%;
     height: auto;
     background-color: rgba(255, 200, 158, 0.7);
@@ -149,7 +152,8 @@ ul.llista{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
-.caja4 {
+#caja4 {
+    float: right;
     width: 65%;
     height: auto;
     background-color: rgba(255, 200, 158, 0.7);
@@ -183,7 +187,7 @@ ul.llista{
     display: flex;
 }
 
-.caja5 {
+#caja5 {
     width: 100%;
     height: auto;
     background-color: rgba(255, 200, 158, 0.7);
@@ -217,7 +221,7 @@ ul.llista{
     margin-left: 0%;
 }
 
-.caja6 {
+#caja6 {
     width: 25%;
     height: 245px;
     background-color: rgba(255, 200, 158, 0.7);
@@ -231,7 +235,7 @@ ul.llista{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
-.caja7 {
+#caja7 {
     width: 25%;
     height: 245px;
     background-color: rgba(255, 200, 158, 0.7);
@@ -245,3 +249,4 @@ ul.llista{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
+
