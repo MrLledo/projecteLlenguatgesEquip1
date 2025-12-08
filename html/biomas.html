@@ -3,84 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>Biomas - Terraria</title>
+    <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/biomas.css">
+
+    <link rel="icon" href="../img/ARBOL.jpeg" type="image/x-icon">
 </head>
+
 <body>
     <div id="wrapper">
-    <header id="cap">
-        <div class="cesped"></div>
-        <img class="logo" src="../img/LOGO.webp" alt="Logo">
-        <img class="FondoCap" src="../img/NUBES3.jpg" alt="Fondo">
-    </header>
-    <main id="cos">
-        <div class="Menu">
-            <ul class="llista">
-                <li>ARMADURAS</li><br>
-                <li>MINERALES</li><br>
-                <li>ARMAS</li><br>
-                <li>BIOMAS</li><br>
-                <li>JEFES</li><br>
-                <li>NPC's</li><br>
-                <li>HERRAMIENTAS</li>
-            </ul>
-        </div>
+        <header id="cap">
+            <div class="cesped"></div>
+            <img class="logo" src="../img/LOGO.webp" alt="Logo">
+            <img class="FondoCap" src="../img/NUBES3.jpg" alt="Fondo">
+        </header>
+        <main id="cos">
+            <!-- Menú lateral -->
+            <div class="Menu1">
+                <ul class="llista1">
+                    <li><a href="../index.html">TERRARIA</a></li><br>
+                    <li><a href="armaduras.html">ARMADURAS</a></li><br>
+                    <li><a href="minerales.html">MINERALES</a></li><br>
+                    <li><a href="armas.html">ARMAS</a></li><br>
+                    <li class="active"><a href="biomas.html">BIOMAS</a></li><br>
+                    <li><a href="jefes.html">JEFES</a></li><br>
+                    <li><a href="npcs.html">NPC's</a></li><br>
+                    <li><a href="herramientas.html">HERRAMIENTAS</a></li>
+                </ul>
+            </div>
 
-        <div class="Menu1">
-            <ul class="llista1">
-                <li> <img class="SubMenu" src="../img/Excalibur.webp" alt="Armas cuerpo a cuerpo"> </li>
-                <li> <img class="SubMenu" src="../img/The_Eye_of_Cthulhu.webp"  alt="Armas a distancia"> </li>
-                <li> <img class="SubMenu" src="../img/Wand_of_Sparking.webp" alt="Armas mágicas"> </li>
-                <li> <img class="SubMenu" src="./img/Optic_Staff.webp" alt="Armas de invocación"> </li>
-                <li> <img class="SubMenu" src="./img/TREE" alt="MAIN"></li>
-            </ul>
-        </div>
+            <!-- Contenido de Biomas -->
+            <div class="caja-titulo">
+                <h1>BIOMAS DE TERRARIA</h1>
+                <p class="subtitulo">Regiones del mundo con características únicas de terreno, enemigos, recursos, música y jefes</p>
+            </div>
 
-        <div class="caja1">
-            <p>Terraria es un juego de aventura, exploración y construcción en 2D donde tú cavas, construyes, combates y sobrevives en un mundo generado proceduralmente lleno de misterios, peligros y tesoros. Comienzas con poco más que un pico, y a medida que exploras cuevas, selvas, desiertos, océanos y hasta el infierno, recolectas recursos, fabricas armas, armaduras, herramientas y construyes tu propia base — ¡todo mientras enfrentas enemigos, jefes épicos y fenómenos sobrenaturales! </p>
-        </div>
-        <div class="caja">
-            <p>Terraria combina la libertad creativa de los juegos de construcción (como Minecraft) con la profundidad de un action-RPG clásico. Aunque es en 2D y con gráficos pixelados, ofrece una experiencia increíblemente rica: </p>
-            <ul>
-                <li>Decenas de jefes y eventos desafiantes. </li>
-                <li>Un sistema de progresión no lineal donde tú decides qué hacer: ser arquitecto, cazador de tesoros, guerrero, mago, granjero… o todo a la vez. </li>
-                <li>Modos cooperativos y multijugador (hasta 8 jugadores).</li>
-                <li>¡Y sigue recibiendo actualizaciones años después de su lanzamiento, con una comunidad y soporte excepcionales! </li>
-            </ul>
-        </div>
-        <div class="caja">
-            <p>GÉNERO: Sandbox / Aventura / Acción-RPG / Construcción / Supervivencia </p>
-            <p>AMBIENTACIÓN: Mundo pixelado en 2.5D (2D con profundidad vertical), con biomas variados: </p>
-            <ul>
-                <li>Selvas venenosas </li>
-                <li>Desiertos con pirámides </li>
-                <li>Océanos profundos </li>
-                <li>Subterráneo lleno de minerales y monstruos </li>
-                <li>El Inframundo (infierno) </li>
-                <li>Y mundos enteros en modo Hardmode (post-derrota del primer jefe final), mucho más desafiantes y coloridos. </li>
-            </ul>
-        </div>
-        <div class="caja">
-            <p>El estilo visual es retro pero lleno de personalidad, con animaciones expresivas, efectos de partículas y una banda sonora ambiental y dinámica compuesta por Scott Lloyd Shelly, que cambia según dónde estés y qué estés enfrentando. </p>
+            <div class="caja-biomas">
+                <h2>¿Qué son los biomas?</h2>
+                <p>Los biomas son regiones específicas del mundo de Terraria con características únicas que incluyen tipos de terreno, enemigos, recursos, música de fondo e incluso jefes especiales. Cada bioma ofrece desafíos y recompensas diferentes, y explorarlos todos es esencial para progresar en el juego.</p>
+                <p>Los biomas se dividen en varias categorías: biomas de superficie, cavernas, el inframundo y minibiomas especiales.</p>
+            </div>
 
-        </div>
-        <div class="caja2">
-            <p>MECÁNICAS PRINICPALES: </p>
-            <ul>
-                <li>Minería y recolección: extrae cientos de tipos de bloques y recursos. </li>
-                <li>Fabricación (crafting): combina materiales para crear armas, herramientas, pociones, muebles, maquinaria y más. </li>
-                <li>Construcción: diseña casas, trampas, granjas automáticas, ciudades enteras… ¡tu imaginación es el límite! </li>
-                <li>Combate: usa espadas, arcos, armas mágicas, invocaciones y hasta cañones contra enemigos y jefes épicos. </li>
-                <li>Progresión por jefes: cada jefe derrotado desbloquea nuevas mecánicas, NPCs, biomas y contenido. </li>
-                <li>Sistema de NPCs: personajes que se mudan a tu mundo si les das una casa, y te ofrecen comercio, servicios o información. </li>
-                <li>Eventos aleatorios: invasiones de goblins, lluvias de meteoritos, festivales piratas, invasiones lunares… </li>
-            </ul>
-        </div>
-    </main>
+            <div class="caja-biomas">
+                <h2>Biomas Principales (Superficie)</h2>
+                <div class="bioma-item">
+                    <h3>Forest (Bosque)</h3>
+                    <p><strong>Descripción:</strong> El bioma de inicio. Tiene árboles verdes, hierba normal y enemigos básicos como Slimes.</p>
+                    <p><strong>Características:</strong> Terreno verde, abundante madera, setas diurnas, generalmente seguro.</p>
+                </div>
 
-    <footer id="peu">
-        <div class="cespedFoter"></div>
-    </footer>
+                <div class="bioma-item">
+                    <h3>Desert (Desierto)</h3>
+                    <p><strong>Descripción:</strong> Lleno de arena, cactus y enemigos como Antlions. Puede contener pirámides y la Arena Escarlata/Corrupta.</p>
+                    <p><strong>Características:</strong> Arena, cactus, ocasionalmente pirámides con cofres.</p>
+                </div>
+
+                <div class="bioma-item">
+                    <h3>Crimson (Carmesí)</h3>
+                    <p><strong>Descripción:</strong> Alternativa roja y sangrienta a la Corrupción, con criaturas más agresivas.</p>
+                    <p><strong>Características:</strong> Similar a la Corrupción pero con temática de carne y sangre. Se expande.</p>
+                </div>
+
+                <div class="bioma-item">
+                    <h3>Snow (Nieve)</h3>
+                    <p><strong>Descripción:</strong> Cubierto de nieve y hielo. Alberga enemigos como los Penguin y el jefe Ice Queen (en eventos).</p>
+                    <p><strong>Características:</strong> Nieve, hielo, posibles iglús con cofres.</p>
+                </div>
+
+                <div class="bioma-item">
+                    <h3>Corruption (Corrupción)</h3>
+                    <p><strong>Descripción:</strong> Tierra morada con espinas, Demon Altars y enemigos demoníacos.</p>
+                    <p><strong>Características:</strong> Se expande y corrompe biomas cercanos. Tiene pozos de corrupción y espinas.</p>
+                </div>
+
+                <div class="bioma-item">
+                    <h3>Jungle (Jungla)</h3>
+                    <p><strong>Descripción:</strong> Espesa, con hierba oscura, lianas y enemigos más fuertes. Es necesario explorarla para progresar.</p>
+                    <p><strong>Características:</strong> Vegetación densa, lianas, agua, templos de la jungla en el subsuelo.</p>
+                </div>
+
+                <div class="bioma-item">
+                    <h3>Dungeon (Mazmorra)</h3>
+                    <p><strong>Descripción:</strong> Laberinto de ladrillos con enemigos poderosos. Solo accesible tras derrotar a Skeletron.</p>
+                    <p><strong>Características:</strong> Entrada custodiada por el Guardián de la Mazmorra. Laberintos complejos.</p>
+                </div>
+
+                <div class="bioma-item">
+                    <h3>Ocean (Océano)</h3>
+                    <p><strong>Descripción:</strong> Aparece en los extremos del mundo. Tiene agua salada, enemigos acuáticos y el jefe Duke Fishron.</p>
+                    <p><strong>Características:</strong> Gran masa de agua, fondo arenoso, posibles cofres submarinos.</p>
+                </div>
+            </div>
+
+            <div class="caja-biomas">
+                <h2>Biomas de Cavernas</h2>
+                <div class="bioma-item">
+                    <h3>Cavern Layer (Cavernas)</h3>
+                    <p><strong>Descripción:</strong> Es la tercera capa principal del mundo, debajo del Subterráneo y antes del Inframundo. Se caracteriza por grandes cuevas abiertas, lagos de lava, minerales valiosos y biomas subterráneos anidados.</p>
+                </div>
+
+                <div class="bioma-item">
+                    <h3>Underground Crimson (Subterráneo carmesí)</h3>
+                    <p><strong>Descripción:</strong> Versión subterránea del bioma Crimson. Tiene tierra roja oscura, venas de Crimtane, corazones de vida y enemigos como el Crimera.</p>
+                </div>
+
+                <div class="bioma-item">
+                    <h3>Underground Corruption (Subterráneo corrupción)</h3>
+                    <p><strong>Descripción:</strong> Versión subterránea del bioma Corruption. Presenta tierra morada, Vile Mushrooms, Ebonstone, y enemigos como Eater of Souls.</p>
+                </div>
+
+                <div class="bioma-item">
+                    <h3>Underground Hallow (Bendición subterránea)</h3>
+                    <p><strong>Descripción:</strong> Versión subterránea del Santuario (Hallow), que solo aparece después de derrotar al Mecánico. Tiene cristales brillantes, arcilla iridiscente y enemigos como Light Mummy.</p>
+                </div>
+            </div>
+
+            <div class="caja-biomas especial">
+                <h2>Inframundo</h2>
+                <p><strong>Descripción:</strong> El Inframundo es la capa más profunda del mundo, llena de lava, bloques de Hellstone y Obsidiana. Es un entorno extremadamente peligroso, habitado por enemigos fuertes como Fire Imps, Demons y Bone Serpents.</p>
+                <p><strong>Recursos:</strong> Aquí se obtiene Hellstone, esencial para armas y armaduras avanzadas del modo normal, y es el único lugar donde se puede invocar al jefe Wall of Flesh, cuya derrota activa el Hardmode.</p>
+                <p><strong>Recomendación:</strong> Por su alto riesgo, se recomienda entrar con protección contra lava, como el Obsidian Skull.</p>
+            </div>
+
+            <div class="caja-biomas">
+                <h2>Minibiomas</h2>
+                <div class="bioma-item">
+                    <h3>Meteorito</h3>
+                    <p><strong>Descripción:</strong> Aparece tras usar la Lágrima de Estrella, invocando una lluvia de meteoritos que impacta en una zona del mundo. El área queda cubierta de Meteorite Ore.</p>
+                    <p><strong>Importancia:</strong> Vital para fabricar armas tempranas de largo alcance, como el Space Gun o el Meteor Shot.</p>
+                </div>
+
+                <div class="bioma-item">
+                    <h3>Nido de araña</h3>
+                    <p><strong>Descripción:</strong> Se encuentra dentro de la Mazmorra (solo accesible tras derrotar a Skeletron). Está formado por bloques de Web y Spider Wall.</p>
+                    <p><strong>Contenido:</strong> Alberga cofres con objetos únicos como el Web Slinger y es necesario para ciertos logros y progresos del juego.</p>
+                </div>
+
+                <div class="bioma-item">
+                    <h3>Colmena</h3>
+                    <p><strong>Descripción:</strong> Aparece aleatoriamente en la Jungla, tanto en superficie como en las cavernas. Está compuesta por bloques de Hive y está infestada de abejas y Big Bees.</p>
+                    <p><strong>Jefe:</strong> Si se destruye sin cuidado, enfurece a la Reina Abeja (Queen Bee), un jefe invocable.</p>
+                </div>
+            </div>
+
+            <div class="caja-biomas">
+                <h2>Estructuras de Tesoro</h2>
+                <p><strong>Nota:</strong> En Terraria, no existe un bioma llamado "Salas del Tesoro" como tal, pero el término suele usarse de forma informal para referirse a estructuras generadas de forma natural que contienen cofres con botines valiosos.</p>
+                <p>Estas "salas" están integradas dentro de otros biomas y no forman un bioma independiente:</p>
+                <ul>
+                    <li><strong>Pirámides del Desierto:</strong> Contienen cofres con objetos como la alfombra voladora o la lámpara mágica.</li>
+                    <li><strong>Iglús de la Nieve:</strong> Pueden contener cofres con objetos útiles para el bioma de nieve.</li>
+                    <li><strong>Templos de la Jungla:</strong> Estructuras complejas con trampas y cofres valiosos, accesibles tras derrotar a Plantera.</li>
+                    <li><strong>Cofres Submarinos:</strong> Encontrados en el fondo del océano, conteniendo objetos acuáticos.</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer id="peu">
+            <div class="MenuPeu">
+                <div class="dinspeu"><a href="https://terraria.softonic.com/">INSTALAR</a></div>
+                <div class="dinspeu"><a href="contacto.html">CONTACTO</a></div>
+                <div class="dinspeu"><a href="https://terraria.org/">PÁGINA TERRARIA OFICIAL</a></div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
