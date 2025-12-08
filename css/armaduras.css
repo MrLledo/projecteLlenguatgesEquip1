@@ -4,20 +4,20 @@
     right: 1.5%;
     background-color: rgba(255, 200, 158, 0.7);
     color: #382516;
-    font-family: Andy;
     border: solid 3.5px #382516;
     width: 5%;
     border-radius: 10px;
     margin-top: -1px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-    margin-left: 0px;
+    margin:auto;
+    padding: auto;
     height: 308.5px;
     padding-top: 5px;
 }
 
 .menuimg2 {
-    margin: 2.5px;
-    padding: -20px;
+    margin-right: 25px;
+    
 }
 
 .SubMenu {
