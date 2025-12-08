@@ -1,5 +1,5 @@
 /* MENÚ SECUNDARIO */
-.Menu2 {
+#Menu2 {
     position: fixed;
     right: 1.5%;
     background-color: rgba(255, 200, 158, 0.7);
@@ -17,7 +17,6 @@
 
 .menuimg2 {
     margin-right: 25px;
-    
 }
 
 .SubMenu {
@@ -38,12 +37,14 @@ ul.llista{
 
 /*  CAJAS DEL MAIN  */
 
-.cajaTit {
+#cajaTit {
     width: 30%;
     height: 60px;
     background-color: rgba(255, 200, 158, 0.7);
     border: solid 3.5px #382516;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 38.5%;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -53,7 +54,7 @@ ul.llista{
     display: flex;
 }
 
-.caja0 {
+#caja0 {
     width: 75%;
     height: auto;
     background-color: rgba(255, 200, 158, 0.7);
@@ -67,7 +68,7 @@ ul.llista{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
-.caja00 {
+#caja00 {
     width: 75%;
     height: auto;
     background-color: rgba(103, 206, 51, 0.5);
@@ -91,6 +92,7 @@ ul.llista{
 }
 
 .caja1 { /* 75% total */
+    float: left;
     width: 60%;
     height: auto;
     background-color: rgba(255, 200, 158, 0.7);
@@ -118,6 +120,7 @@ ul.llista{
 }
 
 .caja2 {
+    float: right;
     width: 60%;
     height: auto;
     background-color: rgba(255, 200, 158, 0.7);
@@ -142,4 +145,8 @@ ul.llista{
     margin-bottom: 0px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
     margin-left: 15%;
+}
+
+span{
+    text-decoration: underline;
 }

@@ -1,9 +1,8 @@
 /* MENÚ SECUNDARIO */
-.Menu2 {
+#Menu2 {
     position: fixed;
     right: 1.5%;
     background-color: rgba(255, 200, 158, 0.7);
-    color: #382516;
     border: solid 3.5px #382516;
     width: 5.7%;
     border-radius: 10px;
@@ -95,18 +94,20 @@ ul.llista{
 
 /*  CAJAS DEL MAIN  */
 
-.cajaTit {
+#cajaTit {
     width: 30%;
     height: 60px;
     background-color: rgba(255, 200, 158, 0.7);
     border: solid 3.5px #382516;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 38.5%;
     margin-bottom: 20px;
     border-radius: 10px;
 }
 
-.caja0 {
+#caja0 {
     width: 75%;
     height: auto;
     background-color: rgba(255, 200, 158, 0.7);
@@ -142,13 +143,11 @@ ul.llista{
     height: 100px;
     background-color: rgba(255, 200, 158, 0.7);
     border: solid 3.5px #382516;
-    color: #382516;
     margin-top: 0px;
     margin-left: 15%;
     margin-bottom: 22px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    font-family: Andy;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
     object-fit: cover;
     overflow: hidden;
