@@ -1,0 +1,186 @@
+/* MENÚ SECUNDARIO */
+#Menu2 {
+    position: fixed;
+    right: 1.5%;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    width: 5%;
+    border-radius: 10px;
+    margin-top: -1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    margin-left: 0px;
+    height: 308.5px;
+    padding-top: 5px;
+}
+
+.menuimg2 {
+    margin-right: 25px;
+}
+
+.SubMenu {
+    background-color:rgba(150, 107, 75, 1);
+    border: solid 2px #382516;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 15%;
+    width: 30px;
+    height: 30px;
+}
+
+ul.llista{
+    list-style-type: none;
+    margin-left: -35px;
+    margin-top: 20px;
+}
+
+/*  CAJAS DEL MAIN  */
+
+#cajaTit {
+    width: 30%;
+    height: 60px;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38.5%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#caja1 {
+    width: 75%;
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    border-bottom: none;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.imagen1 {
+    width: 76.3%;
+    height: 235px;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    margin-top: 0px;
+    margin-left: 15%;
+    margin-bottom: 22px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#caja2 {
+    width: 75%;
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    border-bottom: none;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.imagen2 {
+    width: 76.3%;
+    height: 235px;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    margin-top: 0px;
+    margin-left: 15%;
+    margin-bottom: 22px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja3 {
+    width: 75%;
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    border-bottom: none;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.imagen3 {
+    width: 76.3%;
+    height: 235px;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    margin-top: 0px;
+    margin-left: 15%;
+    margin-bottom: 22px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja4 {
+    width: 75%;
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    border-bottom: none;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.imagen4 {
+    width: 76.3%;
+    height: 235px;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    margin-top: 0px;
+    margin-left: 15%;
+    margin-bottom: 22px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
