@@ -1,0 +1,128 @@
+
+ul.llista{
+    list-style-type: none;
+    margin-left: -35px;
+    margin-top: 20px;
+}
+
+/*  CAJAS DEL MAIN  */
+
+#caja1 {
+    width: 75%;
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 150px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.imgcaja1 {
+    display: flex;
+}
+
+#caja2 {
+    width: 75%;
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+#caja3 {
+    width: 57.1%;
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.imagen1 {
+    width: 15%;
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    background-image: url(../img/Terraria_imagen1.webp);
+    background-size:100%;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+#caja4 {
+    width: 75%;
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+#caja5 {
+    width: 53.5%;
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.imgcaja2 {
+    display: flex;
+}
+
+.imagen2 {
+    width: 20%;
+    height: 235px;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen2 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

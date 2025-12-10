@@ -1,1 +1,121 @@
+#cos {
+    margin-left: 14%; /* Ajuste para el menú lateral */
+    margin-right: 2%;
+}
 
+#cap {
+    z-index: 1000;
+}
+
+.caja-titulo {
+    background-color: rgba(255, 200, 158, 0.9);
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: solid 3.5px #382516;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.caja-titulo h1 {
+    color: #382516;
+    font-size: 35.2pxS;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.caja-titulo .subtitulo {
+    color: #966b4b;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.caja-biomas {
+    height: auto;
+    background-color: rgba(255, 200, 158, 0.7);
+    border: solid 3.5px #382516;
+    text-align: justify;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.caja-biomas h2 {
+    color: #382516;
+    border-bottom: 2px solid #966b4b;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+/* Biomas individuales */
+.bioma-item {
+    background-color: rgba(255, 220, 180, 0.5);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 4px solid #966b4b;
+    transition: all 0.3s ease;
+}
+
+.bioma-item:hover {
+    background-color: rgba(255, 220, 180, 0.8);
+    transform: translateX(5px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bioma-item h3 {
+    color: #382516;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.bioma-item p {
+    color: #382516;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.bioma-item strong {
+    color: #5a3a21;
+}
+
+/* Bioma especial (Inframundo) */
+.caja-biomas.especial {
+    background-color: rgba(255, 180, 150, 0.7);
+    border: solid 3.5px #5a1a1a;
+}
+
+.caja-biomas.especial h2 {
+    color: #5a1a1a;
+    border-bottom: 2px solid #5a1a1a;
+}
+
+/* Listas dentro de biomas */
+.caja-biomas ul {
+    padding-left: 20px;
+    color: #382516;
+}
+
+.caja-biomas li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.caja-biomas li strong {
+    color: #5a3a21;
+}
+
+/* Enlace activo en el menú */
+.Menu1 .llista1 li.active a {
+    color: #5a1a1a !important;
+    font-weight: bold;
+    text-shadow: 0 0 3px rgba(90, 26, 26, 0.5);
+}

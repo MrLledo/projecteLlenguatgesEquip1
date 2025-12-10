@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MINERALES</title>
+    <link rel="icon" href="img/ARBOL.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/minerales.css">
+    <link rel="icon" href="../img/ARBOL.jpeg" type="image/x-icon">
+</head>
+<body>
+    <div id="wrapper">
+    <header id="cap">
+        <div class="cesped"></div>
+        <img class="logo" src="../img/LOGO.webp" alt="Logo">
+        <img class="FondoCap" src="../img/NUBES3.jpg" alt="Fondo">
+        
+        <!-- AUDIO -->
+        <audio id="miAudio" src="../img/Videos/Terraria Music - Day.mp3"></audio>
+        <button id="btnAudio">Musica</button>
+        <script>
+        const audio = document.getElementById("miAudio");
+        const btn = document.getElementById("btnAudio");
 
+        btn.addEventListener("click", () => {
+            if (audio.paused) {
+            audio.play();
+            btn.textContent = "Pausar";
+            } else {
+            audio.pause();
+            btn.textContent = "Reproducir";
+            }
+        });
+        </script>
+    </header>
+
+        <main id="cos">
+        <div id="Menu1">
+            <ul class="llista1">
+                <li> <a href="../index.html">TERRARIA</a> </li><br>
+                <li> <a href="../html/armaduras.html"> ARMADURAS </a></li><br>
+                <li> <a href="../html/minerales.html">MINERALES</a></li><br>
+                <li> <a href="../html/armas.html">ARMAS</a> </li><br>
+                <li> <a href="../html/biomas.html">BIOMAS</a></li><br> 
+                <li> <a href="../html/jefes.html">JEFES</a></li><br>
+                <li> <a href="../html/npcs.html">NPC's</a></li><br>
+                <li> <a href="../html/herramientas.html">HERRAMIENTAS</a></li>
+            </ul>
+        </div>
+        
+        <!-- MENU SUB-ENLACES -->
+        <div id="Menu2">
+            <div class="menuimg2"> <a href="#BAJO"> BAJO </a> </div> 
+            <div class="menuimg3"> <a href="#BAJO-MEDIO"> BAJO-MEDIO </a> </div>
+            <div class="menuimg4"> <a href="#MEDIO-ALTO"> MEDIO-ALTO </a> </div>
+            <div class="menuimg5"> <a href="#ALTO"> ALTO </a> </div>
+            <div class="menuimg1"> <a href="#MAIN"> <img class="SubMenu" src="../img/TREE.webp" alt="MAIN"> </a> </div>
+        </div>
+
+        <div id="cajaTit">
+            <h1 id="MAIN"><strong>MINERALES</strong></h1>
+        </div>
+
+        <div id="caja0">
+            <p>Los minerales son recursos fundamentales que se extraen del terreno y se usan para fabricar herramientas, armas, armaduras, bloques y objetos útiles. Aparecen en diferentes capas del mundo y su disponibilidad depende de la etapa del juego (pre-Hardmode o Hardmode) y, en algunos casos, de la generación aleatoria del mundo (donde ciertos minerales tienen alternativas). </p>
+        </div>
+
+        <div class="imgcaja">
+            <div class="caja1">
+                <h3 id="BAJO"><em>COBRE</em></h3>
+                <p>Mineral básico al inicio del juego. Se encuentra en la superficie y capas superiores. Se usa para fabricar las primeras herramientas, armas y la armadura de cobre. En algunos mundos es reemplazado por estaño. </p>
+            </div>
+            <img class="imagen1" src="../img/Herramientas/Mineral_Cobre.png" alt="Mineral de Cobre">    
+        </div>
+
+        <div class="imgcaja">
+            <div class="caja1">
+                <h3><em>TUNGSTENO</em></h3>
+                <p>Mineral de nivel intermedio, alternativa a la plata. Aparece en capas subterráneas profundas. Mejor que la plata: da más defensa en armaduras y herramientas más duraderas. Requiere pico de hierro o mejor para extraerlo. </p>
+            </div>
+            <img class="imagen1" src="../img/Herramientas/Mineral_Tungsteno.png" alt="Mineral de Tungsteno">    
+        </div>
+
+        <div class="imgcaja">
+            <div class="caja1">
+                <h3 id="BAJO-MEDIO"><em>ORO</em></h3>
+                <p>Mineral avanzado pre-Hardmode. Se halla en capas profundas, cerca del inframundo. Se usa para crear la armadura de oro (27 defensa) y armas potentes. En algunos mundos es sustituido por platino.</p>
+            </div>
+            <img class="imagen1" src="../img/Herramientas/Mineral_Oro.png" alt="Mineral de Oro">    
+        </div>
+
+        <div class="imgcaja">
+            <div class="caja1">
+                <h3><em>PLATINO</em></h3>
+                <p>Alternativa superior al oro. Ofrece más defensa (30 con conjunto completo) y herramientas ligeramente mejores. Solo aparece en lugar del oro en ciertos mundos generados aleatoriamente.</p>
+            </div>
+            <img class="imagen1" src="../img/Herramientas/Mineral_Platino.png" alt="Mineral de Platino">    
+        </div>
+
+        <div class="imgcaja">
+            <div class="caja1">
+                <h3 id="MEDIO-ALTO"><em>METEORITO</em></h3>
+                <p>Mineral especial que cae del cielo tras derrotar al Ojo de Cthulhu. Emite daño por fuego al tocarlo (a menos que uses protección). Se usa para la armadura de meteorito (ideal para arqueros) y armas como el Fusil de Piraña.</p>
+            </div>
+            <img class="imagen1" src="../img/Herramientas/Mineral_Meteorito.png" alt="Mineral de Meteorito">    
+        
+
+        <div class="imgcaja">
+            <div class="caja1">
+                <h3><em>ENDEMONIO</em></h3>
+                <p>Mineral de color púrpura que aparece en la Corrupción. Se obtiene al destruir Orbes de la Corrupción o al matar enemigos corruptos. Se usa para fabricar armas, armadura de sombras y para invocar al Gusano del Mundo.</p>
+            </div>
+            <img class="imagen1" src="../img/Herramientas/Mineral_Endemonio.png" alt="Mineral Endemoniado">    
+        </div>
+
+        <div class="imgcaja">
+            <div class="caja1">
+                <h3 id="ALTO"><em>CARMESÍ</em></h3>
+                <p>Mineral rojo del bioma Carmesí, similar a la demonita. Se obtiene al destruir Corazones Carmesíes o al derrotar enemigos del Carmesí. Se usa para la armadura de carmesí y para invocar al Cerebro de Cthulhu.</p>
+            </div>
+            <img class="imagen1" src="../img/Herramientas/Mineral_Carmesí.png" alt="Mineral de Carmesí">    
+        </div>
+
+        <div class="imgcaja">
+            <div class="caja1">
+                <h3><em>PIEDRA INFERNAL</em></h3>
+                <p>Mineral ígneo del Inframundo. Brilla en la oscuridad y causa daño al tocarlo (a menos que uses Poción de piel de obsidiana). Se funde en ladrillo de piedra fundida y se usa para la armadura fundida, la más fuerte pre-Hardmode.</p>
+            </div>
+            <img class="imagen1" src="../img/Herramientas/Mineral_PiedraInfernal.png" alt="Mineral de Piedra Infernal">    
+        </div>
+
+    </main>
+    <footer id="peu">
+        <div id="MenuPeu">
+            <div class="dinspeu"><a href="https://store.steampowered.com/app/105600/Terraria/">INSTALAR</a></div>
+            <div class="dinspeu"><a href="contacto.html" >CONTACTO</a></div>
+            <div class="dinspeu"><a href="https://terraria.org/">PÁGINA TERRARIA OFICIAL</a></div>
+        </div>
+    </footer>
+</body>
+</html>
